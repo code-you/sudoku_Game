@@ -100,3 +100,49 @@ footer{
     text-align: center;
 
 }
+@media(max-width:700px) {
+    header{
+      display: inline-block;
+    }
+    #setup-game {
+      display: inline-block;
+    }
+    #game{
+      display: inline-block;
+    }
+    #number-container{
+      width: 100%;
+      text-align: center;
+    }
+    #number-container > p {
+      display: inline-flex;
+      width:10%;
+      height:max-content;
+      padding: 5px;
+      margin: 5px;
+      justify-content: center;
+     
+    }
+    #board {
+      width: 100%;
+      height: auto;
+      justify-content: center;
+      margin-bottom: 20px;
+    }
+    .tile {
+      border: 1px solid black;
+      width: 10%;
+      height:auto;
+      text-align: center;
+      margin: 0px;
+      vertical-align: middle;
+      font-size:16pt;
+    }
+    .rightBorder {
+      border-right: 4px solid black;
+    }
+    
+    .bottomBorder {
+      border-bottom: 4px solid black;
+    }
+  }
